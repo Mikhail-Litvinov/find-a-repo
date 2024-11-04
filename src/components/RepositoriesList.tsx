@@ -41,7 +41,7 @@ export const RepositoriesList = () => {
     return (
         <div className={classNames("w-full flex flex-col gap-6")}>
             <div className="w-full flex flex-col gap-4 box-border">
-                <div className="w-full grid sm:grid-cols-[repeat(4,_minmax(0,_1fr))] md:grid-cols-[50%_repeat(3,_minmax(0,_1fr))] gap-2 box-border border-b-gray border-b p-2 md:h-10 relative font-bold bg-gray-200 rounded-xl shadow-lg">
+                <div className="w-full grid sm:grid-cols-[repeat(4,_minmax(0,_1fr))] md:grid-cols-[50%_repeat(3,_minmax(0,_1fr))] gap-2 box-border border-b-gray border-b p-2 md:h-10 relative font-bold bg-gray-200 rounded-xl shadow-lg text-gray-900">
                     <div
                         className="w-full text-center"
                     >
